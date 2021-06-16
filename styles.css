@@ -1,0 +1,19 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+img {
+  float: right;
+  width: 50%;
+  height: 50%;
+}
+
+.card {
+  background-color: pink;
+  width:90%;
+}
