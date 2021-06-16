@@ -103,7 +103,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ![Abhirup Basu Creative Designs Logo](./images/abcd-logo.png)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+© 2021 Abhirup Basu Creative Designs
 
 ## Acknowledgments
 
