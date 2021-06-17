@@ -1,19 +1,80 @@
-.attribution {
-  font-size: 11px;
+body {
   text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
-img {
-  float: right;
-  width: 50%;
-  height: 50%;
+  margin: 50px 5% 0;
+  background-color: hsl(233, 47%, 7%);
 }
 
 .card {
+  position: relative;
+}
+
+.image {
+  display: inline-block;
+  background-color: hsl(277, 64%, 61%);
+  opacity: 0.5;
+}
+
+img {
+  height: 100%;
+}
+
+.text {
+  display: inline-block;
+  background-color: hsl(244, 38%, 16%);
+  margin-right: 0;
+}
+
+h1 {
   background-color: pink;
-  width:90%;
+}
+
+.insights {
+  color: hsl(277, 64%, 61%);
+}
+
+h4 {
+  background-color: yellow;
+}
+
+.stats {
+  background-color: lightgreen;
+}
+
+.companies {
+  background-color: red;
+  display: inline-block;
+}
+
+.templates {
+  background-color: green;
+  display: inline-block;
+}
+
+.queries {
+  background-color: blue;
+  display: inline-block;
+}
+
+h5 {
+  background-color: violet;
+}
+
+p {
+  background-color: brown;
+}
+
+.attribution {
+  font-size: 11px;
+  background-color: hsl(244, 38%, 16%);
+  color: hsla(0, 0%, 100%, 0.6);
+  margin: 10px auto 0;
+  padding: 15px 0;
+}
+
+.attribution a {
+  color: #cccccc;
+}
+
+a:hover {
+  color: #ffffff;
 }

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/abcd-logo.png">
+  <link rel="icon" href="./images/favicon.ico">
 
   <title>Stats preview card component</title>
 </head>
@@ -14,28 +14,37 @@
 <body>
 
   <div class="card">
-    <img src="./images/image-header-desktop.jpg" alt="company-image">
-    <h2> Get insights that help your business grow.</h2>
-    <p>
-      Discover the benefits of data analytics and make better decisions regarding revenue, customer
-      experience, and overall efficiency.
-    </p>
 
-    <div class="companies">
-      <h5>10k+</h5>
-      <p>companies</p>
+    <div class="image">
+      <img src="./images/image-header-desktop.jpg" alt="company-image">
     </div>
 
-    <div class="templates">
-      <h5>314</h5>
-      <p>templates</p>
-    </div>
+    <div class="text">
 
-    <div class="queries">
-      <h5>12m+</h5>
-      <p>queries</p>
-    </div>    
+      <h1> Get <span class="insights">insights</span> that help your business grow.</h1>
+      <h4>
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer
+        experience, and overall efficiency.
+      </h4>
+
+      <div class="stats">
+        <div class="companies">
+          <h5>10k+</h5>
+          <p>companies</p>
+        </div>
+        <div class="templates">
+          <h5>314</h5>
+          <p>templates</p>
+        </div>
+        <div class="queries">
+          <h5>12m+</h5>
+          <p>queries</p>
+        </div>
+      </div>
+
+    </div>
   </div>
+  <br>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62" target="_blank">Frontend Mentor</a>.
