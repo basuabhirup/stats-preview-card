@@ -11,8 +11,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin: 7.5% auto;
-  padding: 5px;
-  background-color: blue;
+  padding: 5px;;
 }
 
 .image {
@@ -67,32 +66,39 @@ h3 {
 }
 
 .stats {
-  background-color: lightgreen;
-  width: 60%;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 65%;
   margin: 50px auto 5px;
+  text-align: left;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: normal;
 }
 
 .companies {
-  background-color: red;
   display: inline-block;
+  padding: 0;
 }
 
 .templates {
-  background-color: green;
   display: inline-block;
 }
 
 .queries {
-  background-color: blue;
   display: inline-block;
 }
 
 h4 {
-  background-color: violet;
+  margin: 5px auto;
+  font-weight: normal;
+  color: hsl(0, 0%, 100%);
 }
 
 p {
-  background-color: brown;
+  margin: 5px auto;
+  font-variant: small-caps;
+  font-weight: 100;
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .attribution {
