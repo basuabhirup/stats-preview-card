@@ -10,15 +10,15 @@ body {
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  margin: 10% auto;
+  margin: 50px auto;
   padding: 0;
 }
 
 .image {
   display: inline-block;
   align-content: center;
-  max-width: 480px;
-  max-height: 400px;
+  max-width: 420px;
+  max-height: 350px;
   margin: auto;
   background: hsl(277, 64%, 61%);
   border-top-left-radius: 20px;
@@ -28,8 +28,8 @@ body {
 img {
   display: inline-flex;
   opacity: 0.6;
-  width: 480px;
-  height: 400px;
+  width: 420px;
+  height: 350px;
   margin: 0;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -39,8 +39,7 @@ img {
   display: inline-block;
   background-color: hsl(244, 38%, 16%);
   margin: auto;
-  max-width: 480px;
-  max-height: 400px;
+  max-width: 420px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -48,8 +47,8 @@ img {
 h1 {
   display: inline-block;
   margin: 40px auto 10px;
-  text-align: left;
-  width: 65%;
+  text-align: center;
+  width: 75%;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   color: hsl(0, 0%, 100%);
@@ -61,22 +60,23 @@ h1 {
 
 h3 {
   display: inline-block;
-  margin: 25px auto;
-  text-align: left;
-  width: 65%;
+  margin: 10px auto 15px;
+  text-align: center6;
+  width: 64%;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 15px;
+  line-height: 1.5;
   color: hsla(0, 0%, 100%, 0.75);
 }
 
 .stats {
-  background-color: green;
   display: inline-flex;
-  justify-content: space-between;
-  width: 65%;
-  margin: 50px auto;
-  text-align: left;
+  flex-flow: column;
+  align-items: center;
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: normal;
 }
@@ -95,17 +95,18 @@ h3 {
 }
 
 h4 {
-  margin: 5px auto 1px;
+  margin: 15px auto 2px; /*made sure that the gap between each h4 and p is 2px */
   font-weight: bold;
-  font-size: 20px;
+  font-size: 24px;
   font-family: 'Inter', sans-serif;
   color: hsl(0, 0%, 100%);
 }
 
 p {
-  margin: 1px auto;
+  margin: 2px auto 15px; /*made sure that the gap between a p and subsequent is 15px */
   font-variant: small-caps;
   font-weight: 100;
+  font-size: 18px;
   color: hsla(0, 0%, 100%, 0.6);
 }
 
