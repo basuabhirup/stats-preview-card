@@ -10,7 +10,7 @@ body {
   flex-direction: row-reverse;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 7.5% auto;
+  margin: 150px auto;
   padding: 0;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 img {
-  opacity: 0.4;
+  opacity: 0.5;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
