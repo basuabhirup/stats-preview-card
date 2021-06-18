@@ -5,7 +5,10 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ### Screenshot
 
-![Final Solution Screenshot](./design/final-screenshot.png)
+![Final Solution for Desktop  Screenshot](./design/final-screenshot.png)
+
+![Final Solution for Mobile - Screenshot](./design/final-screenshot-mobile.png)
+
 
 
 ### Links
