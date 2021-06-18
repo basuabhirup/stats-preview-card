@@ -38,7 +38,14 @@ The main thing that I have learned doing this project is the concept of css flex
   padding: 0;
 }
 ```
+Another interesting thing was to optimise the website for mobile viewing. I have made two different css files for this purpose placing the threshold screen width to be 1100px.
 
+```html
+<link rel="stylesheet" media="screen and (min-width: 1101px)" href="styles.css" type="text/css"  />
+ <link rel='stylesheet' media='screen and (max-width: 1100px)' href='mstyles.css' type='text/css' />
+```
+
+Finally I adjusted the width of the text contents and changed the text alignment into center for proper mobile optimisation.
 
 ### Useful resources
 
