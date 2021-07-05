@@ -45,7 +45,7 @@ Another interesting thing was to optimise the website for mobile viewing. I have
 
 ```html
 <link rel="stylesheet" media="screen and (min-width: 1101px)" href="styles.css" type="text/css"  />
-<link rel='stylesheet' media='screen and (max-width: 1100px)' href='mstyles.css' type='text/css' />
+<link rel='stylesheet' media='screen and (max-width: 1100px)' href="mstyles.css" type='text/css' />
 ```
 
 Finally I adjusted the width of the text contents and changed the text alignment into center for proper mobile optimisation.
